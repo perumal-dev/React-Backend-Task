@@ -6,6 +6,8 @@ import Task from "../pages/Task";
 import Layout from "../components/Layout";
 import Login from "../pages/Login";
 import UseState from "../components/UseState";
+import RenderingMethods from "../components/RenderingMethods";
+
 
 const AppRoutes = () => {
   return (
@@ -17,6 +19,9 @@ const AppRoutes = () => {
           <Route path="/task" element={<Task />} />
           <Route path="/project" element={<Project />} />
           <Route path="/usestate" element={<UseState/>}/>
+          <Route path="/renderingmethods" element={<RenderingMethods/>}/>
+          
+
         </Route>
 
         <Route path="/login" element={<Login/>}/>
