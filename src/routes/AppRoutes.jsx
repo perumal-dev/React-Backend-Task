@@ -4,7 +4,7 @@ import About from "../pages/About";
 import Project from "../pages/Project";
 import Task from "../pages/Task";
 import Layout from "../components/Layout";
-import Login from "../pages/Login";
+
 import UseState from "../components/UseState";
 import RenderingMethods from "../components/RenderingMethods";
 
@@ -24,7 +24,7 @@ const AppRoutes = () => {
 
         </Route>
 
-        <Route path="/login" element={<Login/>}/>
+
 
 
       </Routes>
