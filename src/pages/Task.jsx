@@ -40,10 +40,10 @@ const Task = () => {
         </div>
 
         <div className="bg-white h-80 w-60 flex justify-around items-center rounded drop-shadow-2xl">
-          2
+          
         </div>
         <div className="bg-white h-80 w-60 flex justify-around items-center rounded drop-shadow-2xl">
-          4
+          
         </div>
       </div>
     </>

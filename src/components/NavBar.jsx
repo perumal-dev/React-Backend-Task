@@ -1,15 +1,9 @@
-import { Link, NavLink, useNavigate } from "react-router-dom"
+import { Link, NavLink} from "react-router-dom"
 
 
 const NavBar = () => {
 
-    const navigate = useNavigate()
 
-    const reDirect = ()=>{
-
-        navigate("/login")
-
-    }
   return (
     <>
     <div className="flex justify-between bg-blue-400 p-3 items-center">
@@ -20,7 +14,7 @@ const NavBar = () => {
             {/* <Link to={"/about"}>About</Link> */}
             <Link to={"/task"}>Task</Link>
             <Link to={"/project"}>Project</Link>
-            <button onClick={reDirect} className="bg-red-300 w-20 py-1 rounded">Login</button>
+
         </div>
     </div>
     
