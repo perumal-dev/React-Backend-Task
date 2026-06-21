@@ -14,8 +14,7 @@ const Task = () => {
 
   return (
     <>
-    <div> <h1>TASK</h1>
-    </div>
+
     <div className="bg-gray-200 flex h-screen justify-around items-center gap-10 flex-wrap">
       <div className="bg-white h-80 w-60 flex-col flex  p-8 justify-center gap-10 items-center rounded drop-shadow-2xl">
         <h1>Day 4</h1>

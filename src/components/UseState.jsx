@@ -4,7 +4,7 @@ const UseState = () => {
   const [count, setCount] = useState(0);
   const [check, setCheck] = useState(true);
   const [arr, setArr] = useState([]);
-  const [obj, setObj] = useState({name:"Roshan",age:23});
+  const [obj] = useState({name:"Roshan",age:23});
 
   
     const handleClick3 = () => {
