@@ -7,6 +7,7 @@ import Layout from "../components/Layout";
 
 import UseState from "../components/UseState";
 import RenderingMethods from "../components/RenderingMethods";
+import FormHandling from "../components/FormHandling";
 
 
 const AppRoutes = () => {
@@ -20,6 +21,7 @@ const AppRoutes = () => {
           <Route path="/project" element={<Project />} />
           <Route path="/usestate" element={<UseState/>}/>
           <Route path="/renderingmethods" element={<RenderingMethods/>}/>
+          <Route path="/formhandling" element={<FormHandling/>} />
           
 
         </Route>

@@ -43,7 +43,18 @@ const Task = () => {
           </button>
         </div>
 
-        <div className="bg-white h-80 w-60 flex justify-around items-center rounded drop-shadow-2xl"></div>
+        <div className="bg-white h-80 w-60 flex-col flex  p-8 justify-evenly gap-10 items-center rounded drop-shadow-2xl">
+          <h1>Day 7</h1>
+          <p>React UseState Hooks - with Form Handling</p>
+          <button
+            onClick={() => {
+              navigate("/formhandling");
+            }}
+            className="bg-gray-600 hover:bg-gray-800 text-white font-medium px-5 py-2 rounded-lg transition"
+          >
+            Assignment
+          </button>
+        </div>
         <div className="bg-white h-80 w-60 flex justify-around items-center rounded drop-shadow-2xl"></div>
       </div>
     </>
