@@ -8,6 +8,7 @@ import Layout from "../components/Layout";
 import UseState from "../components/UseState";
 import RenderingMethods from "../components/RenderingMethods";
 import FormHandling from "../components/FormHandling";
+import HocAssignment from "../pages/HocAssignment";
 
 
 const AppRoutes = () => {
@@ -22,6 +23,7 @@ const AppRoutes = () => {
           <Route path="/usestate" element={<UseState/>}/>
           <Route path="/renderingmethods" element={<RenderingMethods/>}/>
           <Route path="/formhandling" element={<FormHandling/>} />
+          <Route path="/hoc" element={<HocAssignment/>} />
           
 
         </Route>
